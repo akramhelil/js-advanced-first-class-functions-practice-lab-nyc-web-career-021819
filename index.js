@@ -22,7 +22,7 @@ const driversByRevenue = function (drivers) {
 }
 
 const driversByName = function (drivers) {
-  const newDrivers = [...drivers]
+   newDrivers = [...drivers]
   newDrivers.sort(function (a, b) {
     let nameA = a.name
     let nameB = b.name
